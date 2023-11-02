@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Aplicación de Productos</title>
+    <!-- Tema Bootswatch Cosmo -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css"
+    />
+
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="App.css" />
+  </head>
+
+  <body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Aplicación de Productos</a>
+    </nav>
+
+    <div class="container">
+      <!-- APLICACIÓN -->
+      <div id="App" class="row pt-5">
+        <!-- FORMULARIO -->
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h4>Agregar un Producto</h4>
+            </div>
+            <form id="product-form" class="card-body">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Nombre del Producto"
+                />
+                <div class="exito, error">
+                  <p class="exito">Éxito</p>
+                  <p class="error">Error</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
